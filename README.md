@@ -1,6 +1,4 @@
 # Telegram-Auto-Downloader
-
-## Description
 This Python script automates the downloading of new data (files, images, videos, etc.) posted to a specific Telegram group. It uses the Telethon library to interact with Telegram's API. Additionally, it sends a notification via Pushover API whenever a file is downloaded.
 
 ## Features
@@ -10,10 +8,16 @@ This Python script automates the downloading of new data (files, images, videos,
 
 ## Installation
 
-Before running the script, install the required packages:
+Clone the repository to your local machine:
 
 ```bash
-pip install telethon requests
+git clone https://github.com/alenperic/Telegram-Auto-Downloader && cd Telegram-Auto-Downloader
+```
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Configuration
@@ -53,9 +57,3 @@ For any queries or assistance, feel free to open an issue in this repository.
 ---
 
 **Disclaimer**: This script is for educational purposes only. The author is not responsible for any misuse or violation of Telegram's terms of service.
-```
-
-### Instructions for Use:
-- Replace placeholders (like `python TeleMonitor.py`) with actual details relevant to your project.
-- Ensure that the licensing information (`MIT License` in this case) matches your project's license.
-- Add or remove sections as necessary for your project's scope and features.
